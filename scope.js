@@ -11,4 +11,4 @@ function sum(first, second) {
 
 // console.log(result);
 const output = sum(3, 7);
-console.log(output);
+//console.log(output);

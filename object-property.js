@@ -10,16 +10,16 @@ const students = [
 
 ];
 
-//loop
-// const output=[ ];
-// for (let i = 0; i < students.length; i++) {
-//     const element = students[i];
-//     const nameProperty = element.name
-//     // console.log(nameProperty);
-//     output.push(nameProperty);
+
+ const output=[ ];
+  for (let i = 0; i < students.length; i++) {
+    const element = students[i];
+    const nameProperty = element.name
+    // console.log(nameProperty);
+     output.push(nameProperty);
     
-// }
-// console.log(output);
+ }
+ console.log(output);
 
 //Map Function use
 const names = students.map(s => s.name);

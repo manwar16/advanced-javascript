@@ -16,5 +16,5 @@ if (age>0) {
     
 }
 else{
-    console.log("COndition is False")
+    console.log("Condition is False")
 }
